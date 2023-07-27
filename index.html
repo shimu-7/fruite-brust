@@ -1,21 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/40c82d008e.js" crossorigin="anonymous"></script>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    <header>
 
+<body class=".font-lato">
+    <header class="container mx-auto">
+        <nav>
+            <div class="navbar  bg-[#F85559] hidden lg:flex justify-between px-8 py-4 rounded-full">
+                <div>
+                    <div class="flex justify-center items-center gap-3 font-thin text-white">
+                        <p>Home</p>
+                        <p>About us</p>
+                        <p>Shop</p>
+                        <p>All Fruit</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center items-center gap-2">
+                        <img src="./images/logo.png" alt="">
+                        <a class=" font-extrabold text-4xl text-white">Fruit Burst</a>
+                    </div>
+                </div>
+                <div class="flex-none gap-2">
+                    <div class="rounded-full bg-white w-72 px-4 py-2 flex justify-between items-center">
+                        <p class="font-thin">Search</p>
+                        <i class=" fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between items-center lg:hidden px-8 py-4 ">
+                <div>
+                    <div class="flex justify-center items-center gap-2">
+                        <img src="./images/logo.png" alt="">
+                        <a class=" font-bold text-3xl">Fruit Burst</a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
